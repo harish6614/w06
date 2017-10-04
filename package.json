@@ -1,0 +1,16 @@
+{
+    "name": "m06",
+    "version": "0.0.1",
+    "description": "simple chat app",
+    "main": "server.js",
+    "dependencies": {
+        "express": "latest",
+        "socket.io": "latest"
+    },
+    "author": "Harish Bondalapati",
+    "homepage": "https://github.com/harish6614/m06",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/harish6614/m06"
+    }
+}
