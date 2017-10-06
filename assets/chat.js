@@ -47,7 +47,9 @@ socket.on('notifyUser', function (user) {
   
   // when does the document.ready() function get executed?...................
   $(document).ready(function () {
-    var name = makeid()
+    // var name = makeid()
+   var name = prompt("Please enter your name?");
+   name = (name!=""?name:makeid());
     $('#user').val(name)
     // emit a chatMessage event from the System along with a message 
     socket.emit('chatMessage', 'System', '<b>' + name + '</b> has joined the discussion')
